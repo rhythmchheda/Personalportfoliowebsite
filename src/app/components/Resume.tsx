@@ -2,7 +2,7 @@ import { Download, FileText } from 'lucide-react';
 
 export function Resume() {
   // Google Drive resume PDF (converted to direct download link)
-  const resumeUrl = 'https://drive.google.com/uc?export=download&id=1dMBeppwHCnTUjJDYYc1rqwQhimEOFs4S';
+  const resumeUrl = 'https://drive.google.com/uc?export=download&id=1v5QoMqh3WvknDgVR19a3FT4g27n_Wh9Y';
   
   return (
     <section id="resume" className="py-12 bg-black">
