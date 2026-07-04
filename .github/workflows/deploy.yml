@@ -24,6 +24,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: echo "@jsr:registry=https://npm.jsr.io" >> .npmrc
       - run: pnpm install --no-frozen-lockfile
       - run: pnpm build
       - uses: actions/upload-pages-artifact@v3
