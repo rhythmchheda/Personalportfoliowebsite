@@ -3,6 +3,17 @@ import { Briefcase, Calendar } from 'lucide-react';
 const experiences = [
   {
     id: 1,
+    title: 'GoLang Developer',
+    company: 'F2Onsite',
+    period: 'Aug 2024 – Present',
+    description: `Engineered concurrent Go microservices using goroutines and channels, boosting throughput by 25% under peak loads of 15K+ requests. Managed backend deployments on AWS ECS/EKS and Lambda, optimizing resource allocation to cut cloud costs by 18%.
+
+Containerized services using Docker and orchestrated via Kubernetes, reducing multi-environment setup times by 30%. Built automated GitHub Actions CI/CD pipelines, accelerating delivery velocity from bi-weekly to daily production releases.
+
+Designed robust RESTful APIs and integrated Kafka/SQS messaging queues, ensuring zero-loss distributed streaming. Optimized PostgreSQL and DynamoDB queries to achieve sub-30ms read latency while maintaining 92% test coverage.`,
+  },
+  {
+    id: 2,
     title: 'Backend Engineer',
     company: 'Unaport AI',
     period: 'Mar 2021 – July 2023',
